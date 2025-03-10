@@ -1,4 +1,4 @@
-# SocialTriggers Framework 🧠
+# vibeCascade Framework 🧠
 
 A cutting-edge landing page for the SocialTriggers Framework - leveraging advanced cognitive psychology for elite social media growth.
 

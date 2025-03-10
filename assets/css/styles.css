@@ -1547,6 +1547,20 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* Framework Image */
+
+.framework-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--space-xl);
+}
+
+.framework-image {
+    max-width: 80%;
+    border-radius: var(--radius-l);
+    box-shadow: var(--shadow-lg);
+}
+
 .feature-card,
 .case-study-card,
 .framework-card {
