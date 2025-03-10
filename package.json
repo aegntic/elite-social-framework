@@ -1,0 +1,45 @@
+{
+  "name": "elite-social-framework",
+  "version": "1.0.0",
+  "description": "A cutting-edge landing page for the SocialTriggers Framework - leveraging advanced cognitive psychology for elite social media growth.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "webpack serve --mode development --open",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aegntic/elite-social-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aegntic/elite-social-framework/issues"
+  },
+  "homepage": "https://github.com/aegntic/elite-social-framework#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "concurrently": "^8.2.2",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "nodemon": "^3.1.9",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
