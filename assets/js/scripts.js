@@ -391,6 +391,13 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     
     document.head.appendChild(style);
+
+    // Set the active image as the logo
+    const activeImage = 'assets/images/active-image.png'; // Replace with the path to your active image
+    const logoImg = document.getElementById('logo-img');
+    if (logoImg) {
+        logoImg.src = activeImage;
+    }
 });
 
 /**

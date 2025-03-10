@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+#WEBPACK
+webpack.config.js
+public/index.html
+
+# Local development
+*.local
+
+# Environment files
+.env
+.env.*
+
+# IDE specific
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*.lock
+
+# Log files
+*.log
+*.log.*
+
+# Database files
+*.db
+*.sqlite
+
+# Build files
+dist/
+build/
+
+# Editor directories and files
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Common temporary files
+*.swp
+*.swo
+*~
+.*~
+.DS_Store
+ Thumbs.db
